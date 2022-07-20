@@ -1,0 +1,8 @@
+¡Hola!
+Este archivo es un breve instructivo para su uso.
+-El programa se abre en netbeans, de manera que una ve descargado se debe abrir ahí.
+-Inicializa con la clase Bienvenida
+-Se agregaron unos archivos (txt) que contienen algoritmos con los que puede probar el programa.
+También se añadió un reporte el cual indica el uso del lenguaje y la gramatica de CODITO, para entenderlo mejor.
+
+¡Gracias por su atención prestada!
