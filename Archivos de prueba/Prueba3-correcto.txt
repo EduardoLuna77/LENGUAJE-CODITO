@@ -1,0 +1,20 @@
+
+
+     content evaluaNumero:<
+                      _>Programa que dice cual de los dos numeros ingresados es mayor, menor o igual
+                      show:->"Ingresa el primer numero";
+                      get:->A;
+                      show:->"Ingresa el segundo numero";
+                      get:->B;
+                      if(A==B):{
+	          show:->"Los dos numeros son iguales   "+A+" = "+B;
+	}else:{
+	           if(A>B):{
+		show:->A+"  es mayor a  "+B;
+	           }else:{
+		show:->A+"  es menor a  "+B;
+	           }
+
+                      }
+
+>

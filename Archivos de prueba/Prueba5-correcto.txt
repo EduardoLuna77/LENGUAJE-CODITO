@@ -1,0 +1,36 @@
+
+
+     content checaNumeros:<
+	_>Programa que solicita 3 numeros y obtiene promedio, numero mayor y numero menor
+	show:->"Ingresa el primer numero";
+	get:->A;
+	show:->"Ingresa el segundo numero";
+	get:->B;
+	show:->"Ingresa el tercer numero";
+	get:->C;
+
+	prom:<-(A+B+C)/3;
+	show:->"El promedio de los numeros ingresados es  "+prom;
+
+	if(A>=B & A>=C):{
+	         show:->"El numero mayor es "+A;
+	}else:{
+	           if(B>=A & B>=C):{
+		show:->"El numero mayor es "+B;
+	           }else:{
+		show:->"El numero mayor es "+C;
+	            }
+	}
+
+	if(A<=B & A<=C):{
+	         show:->"El numero menor es "+A;
+	}else:{
+	           if(B<=A & B<=C):{
+		show:->"El numero menor es "+B;
+	           }else:{
+		show:->"El numero menor es "+C;
+	            }
+	}
+
+
+>

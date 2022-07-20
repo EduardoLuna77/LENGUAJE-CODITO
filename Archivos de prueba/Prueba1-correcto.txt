@@ -1,0 +1,16 @@
+
+
+     content pruebaNumero:<
+                      _>Programa que evalua si la suma de dos numeros es mayor a 10
+                      show:->"Ingresa el primer numero";
+                      get:->A;
+                      show:->"Ingresa el segundo numero";
+                      get:->B;
+                      suma:<-A+B;
+                      if(suma>10):{
+                                            show:->"La suma de los dos numeros es mayor a 10";
+                      }else:{
+                                            show:->"La suma de los dos numeros es menor o igual a 10";
+                      }
+
+>
